@@ -30,7 +30,7 @@ const FooterSection = () => {
             </p>
             <div className="flex justify-center space-x-4 mt-4 text-white">
               {/* Social media links */}
-              <a href="https://twitter.com/bitmonsoltoken" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="transition duration-300 ease-in-out hover:scale-125">
+              <a href="https://twitter.com/Secretsoltoken" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="transition duration-300 ease-in-out hover:scale-125">
                 <span>Twitter</span> {/* Consider replacing <span> with an actual icon */}
               </a>
               <a href="https://t.me/SecretSocietyCult" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition duration-300 ease-in-out hover:scale-125">
