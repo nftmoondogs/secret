@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0; /* White color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(0, 0, 0); /* Solid white background */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: 'CourierBold';
+  src: url('/fonts/courbd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-courier-bold {
+  font-family: 'CourierBold', monospace;
+}
+
+@font-face {
+  font-family: 'stone'; /* Correct font-family name */
+  src: url('/fonts/stone.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-stone { /* Correct class name for the stone font */
+  font-family: 'stone', monospace;
+}
+
+
+
+@font-face {
+  font-family: 'it'; /* Correct font-family name */
+  src: url('/fonts/Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-stone { /* Correct class name for the stone font */
+  font-family: 'it', monospace;
+}
+
+@font-face {
+  font-family: 'Simpfxo';
+  src: url('/fonts/simpfxo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-Simpfxo {
+  font-family: 'Simpfxo', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+

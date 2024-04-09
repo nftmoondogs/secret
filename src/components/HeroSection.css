@@ -1,0 +1,21 @@
+
+  
+  .gif-container {
+    /* This container will ensure the gif is centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gif-container img {
+    /* Ensuring the GIF is responsive and centered without specifying max-width or max-height */
+    object-fit: contain;
+    object-position: center; /* Center the GIF in the container */
+    width: auto; /* Adjust width automatically */
+    height: auto; /* Adjust height automatically */
+    max-width: 100%; /* Limiting width to the viewport's width */
+    max-height: 100vh; /* Limiting height to the viewport's height */
+  }
+  
