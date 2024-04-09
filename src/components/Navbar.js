@@ -47,7 +47,7 @@ export default function Navbar() {
               <div className="logo-circle">
                 <img src="https://i.ibb.co/JrMyVPx/bannner-webp.gif" alt="ZERO" className="h-12 " />
               </div>
-              <h2 className="text-2xl text-white font-bold">$SecretSociety</h2>
+              <h2 className="text-2xl text-white font-bold">$SS</h2>
             </a>
           </div>
           <div className="flex items-center">

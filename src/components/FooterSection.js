@@ -20,7 +20,7 @@ const FooterSection = () => {
           {/* Logo and Title */}
           <div>
             <img src="https://i.ibb.co/JrMyVPx/bannner-webp.gif" alt="Logo" className="mx-auto mb-4 h-20 w-auto transition duration-300 ease-in-out hover:scale-105" />
-            <h2 className="text-3xl font-bold ">$SecretSociety Token</h2> {/* Apply the flashy class here */}
+            <h2 className="text-3xl font-bold ">$SS Token</h2> {/* Apply the flashy class here */}
           </div>
           
           {/* Description and Social Icons */}

@@ -60,14 +60,14 @@ export default function AboutSection() {
             The Truth sets you free
             </h2>
             <p className="text-white mb-6">
-            In a world shrouded in darkness and deception, the truth is the only light that can guide us to freedom.  That's what $SecretSociety is all about – unveiling the truth and breaking free from the lies that keep us enslaved. 
+            In a world shrouded in darkness and deception, the truth is the only light that can guide us to freedom.  That's what SecretSociety - $SS is all about – unveiling the truth and breaking free from the lies that keep us enslaved. 
             </p>
             <div className="flashy-text text-white text-lg mb-5" style={{ animation: 'textGlow 1s infinite' }}>
               "The puppet masters"
             </div>
             <ul className="list-disc list-inside text-gray-400 space-y-2">
               <li>
-              he puppet masters have long kept the masses in the dark, feeding them a steady diet of misinformation and propaganda. But $SecretSociety knows that the truth is out there, waiting to be discovered by those brave enough to seek it. 
+              he puppet masters have long kept the masses in the dark, feeding them a steady diet of misinformation and propaganda. But SecretSociety - $SS knows that the truth is out there, waiting to be discovered by those brave enough to seek it. 
               </li>
               {/* Consider adding more list items or content here to fill the larger space effectively */}
             </ul>
